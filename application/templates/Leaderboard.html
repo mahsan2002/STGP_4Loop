@@ -1,0 +1,97 @@
+{% extends "layout.html" %}
+
+{% block body_content %}
+
+    <div class="container my-4">
+
+        <!-- Personal Leaderboard -->
+        <h2 class="sub-title text-center">Personal Leaderboard</h2>
+        <table class="table table-bordered mb-4">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>130</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Emily Davis</td>
+                    <td>120</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+        <!-- Team Leaderboard -->
+        <h2 class="sub-title text-center">Team Leaderboard</h2>
+        <table class="table table-bordered mb-4">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Team</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Team Alpha</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Team Beta</td>
+                    <td>750</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Team Gamma</td>
+                    <td>720</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+        <!-- Location Leaderboard -->
+        <h2 class="sub-title text-center">Location Leaderboard</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Location</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Osterley</td>
+                    <td>900</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Leeds</td>
+                    <td>850</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Livingstone</td>
+                    <td>800</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
